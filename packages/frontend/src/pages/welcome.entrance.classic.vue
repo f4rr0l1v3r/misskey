@@ -9,10 +9,10 @@ SPDX-License-Identifier: AGPL-3.0-only
 	<XTimeline :class="$style.tl"/>
 	<div :class="$style.shape1"></div>
 	<div :class="$style.shape2"></div>
-	<div :class="$style.logoWrapper">
+<!-- 	<div :class="$style.logoWrapper">
 		<div :class="$style.poweredBy">Powered by</div>
 		<img :src="misskeysvg" :class="$style.misskey"/>
-	</div>
+	</div> -->
 	<div :class="$style.contents">
 		<MkVisitorDashboard/>
 	</div>
